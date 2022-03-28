@@ -1,7 +1,7 @@
 #
 # Cookbook:: master
-# Recipe:: default
+# Recipe:: slave
 #
 # Copyright:: 2022, The Authors, All Rights Reserved.
 
-include_recipe "master::slave"
+master_install 'installing prometheus and grafana' 
